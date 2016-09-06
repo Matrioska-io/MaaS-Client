@@ -1,2 +1,2 @@
 # MaaS-Client
-Redux web application. Client side of MaaS.
+Redux web application. Front-End of MaaS.
