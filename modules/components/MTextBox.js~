@@ -17,7 +17,7 @@ class MTextBox extends Component {
 
   render() {
     return (
-      <input {...this.props} onChange={this.props.onWrite} defaultValue={this.props.defaultLabel}/>
+      <input {...this.props} type={this.props.boxType}  onChange={this.props.onWrite} defaultValue={this.props.defaultLabel}/>
     )
   }
 }
